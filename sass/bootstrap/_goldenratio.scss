@@ -1,0 +1,10 @@
+//
+// Variables
+// --------------------------------------------------
+
+$base-size: 14px;
+$ratio: $golden;
+
+.test {
+	width: modular-scale(7, 14px, $golden);
+}
